@@ -1,0 +1,122 @@
+.topnav {
+  background-color: lightpink;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 23px 26px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: lightpink;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: lightpink;
+  color: white;
+}
+
+.topnav a.logo {
+    
+    padding: 18px 26px;
+}
+
+
+
+div.boxed {
+    height: 250px;
+  border: 8px solid pink;
+  padding: 8px;
+}
+
+p {
+   
+    font-size: 20px;
+    font-family: cursive;
+    text-align: top: left;
+    
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: left;
+}
+
+
+p1{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: top: left;
+}
+
+hr.solid {
+  border-top: 4px solid pink;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
